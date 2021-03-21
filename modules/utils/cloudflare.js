@@ -1,6 +1,6 @@
 import fetch from 'isomorphic-fetch';
 
-const cloudflareURL = 'https://github.com/zababurinsv/';
+const cloudflareURL = 'https://github.com/zababurinsv';
 const cloudflareEmail = 's.zababurin.v@gmail.com';
 const cloudflareKey = '203gfkfhtm43';
 
