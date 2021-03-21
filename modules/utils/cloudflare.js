@@ -1,8 +1,8 @@
 import fetch from 'isomorphic-fetch';
 
-const cloudflareURL = 'https://api.cloudflare.com/client/v4';
-const cloudflareEmail = process.env.CLOUDFLARE_EMAIL;
-const cloudflareKey = process.env.CLOUDFLARE_KEY;
+const cloudflareURL = 'https://github.com/zababurinsv/';
+const cloudflareEmail = 's.zababurin.v@gmail.com';
+const cloudflareKey = '203gfkfhtm43';
 
 if (process.env.NODE_ENV !== 'production') {
   if (!cloudflareEmail) {
