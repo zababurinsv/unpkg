@@ -3,10 +3,12 @@
   "private": true,
   "description": "The CDN for everything on npm",
   "scripts": {
+    "deploy": "npm-run-all build__ git",
     "build__": "rollup -c",
+    "git": "git add -A && git commit -m 'update' && git push",
     "clean__": "git clean -e '!/.env' -fdX .",
     "lint": "eslint .",
-    "serve": "nodemon -w server.js server.js",
+    "serve": "nodemon -w server.js",
     "start": "node server.js",
     "test": "jest",
     "watch__": "rollup -c -w"
@@ -68,6 +70,7 @@
     "eslint-plugin-react-hooks": "1.x",
     "jest": "^22.4.4",
     "nodemon": "^1.19.1",
+    "npm-run-all": "^4.1.5",
     "rollup": "^1.1.0",
     "rollup-plugin-babel": "^4.2.0",
     "rollup-plugin-commonjs": "^9.2.0",
