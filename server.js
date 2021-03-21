@@ -3258,7 +3258,7 @@ function unpkgRewrite(origin, dependencies = {}) {
   };
 }
 
-const origin = 'https://unpkg.com';
+const origin = 'https://zababurinsv.github.io';
 function rewriteBareModuleIdentifiers(code, packageConfig) {
   const dependencies = Object.assign({}, packageConfig.peerDependencies, packageConfig.dependencies);
   const options = {
@@ -3337,7 +3337,7 @@ const cloudflareURL = 'https://github.com/zababurinsv/';
 const cloudflareEmail = 's.zababurin.v@gmail.com';
 const cloudflareKey = '203gfkfhtm43';
 
-if (process.env.NODE_ENV !== 'production') ;
+// if (process.env.NODE_ENV !== 'production') ;
 
 function get$1(path, headers) {
   return fetch$1(`${cloudflareURL}${path}`, {
